@@ -1,0 +1,37 @@
+
+#page1{
+    background: url(bg.Jpg) center center fixed;
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    font-family: Lobster, serif;
+}
+
+.heading h1{
+    letter-spacing: 5px;
+}
+
+/*error message*/
+#error{
+    background-color: #D87777;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+/*read word*/
+#result{
+    font-size: 50px;
+    background-color: rgba(255,255,255,0.2);
+    padding: 5%, 0%;
+}
+
+/*hide slider input boxes*/
+.full-width-slider input{
+    display: none;
+}
+
+/*ensure full-width*/
+.full-width-slider .ui-slider-track {
+    margin-left: 15px;
+}
